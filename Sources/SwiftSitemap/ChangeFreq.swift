@@ -17,7 +17,7 @@ open class ChangeFreq: Tag {
         case never
     }
     
-    init(_ value: Value) {
+    public init(_ value: Value) {
         super.init()
         setContents(value.rawValue)
     }
